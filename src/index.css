@@ -11,3 +11,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.card-img-top{
+  height: 350px;
+}
+
+.card-body{
+gap: 1rem;
+}
+.container{
+  margin-right: 0;
+  width: 50%;
+}
+
+.box{
+  width: 80%;
+  margin: 20px auto;
+  /* gap: 50px; */
+}
+.card{
+  margin: 10px;
+  margin-bottom: 50px;
+}
+.btn-info{
+  background-color: aquamarine;
+}
+.rn{
+  border-radius: 25px !important;
+  border: 1px solid black;
+}
+.bos{
+  width: 10%;
+  margin: auto;
+  ;
+}
+
+@media (max-width:600px) {
+  .container{
+    margin: auto;
+    width: 100%;
+  }
+}
